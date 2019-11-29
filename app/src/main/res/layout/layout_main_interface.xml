@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="0dp"
+    tools:context=".MainInterface">
+
+    <ImageView
+        android:id="@+id/MainBG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:background="#019dd6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403"
+        app:srcCompat="@drawable/new_login_bg" />
+
+    <Button
+        android:id="@+id/main_button1"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/frame"
+        android:text="用户名登录"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MainZH" />
+
+    <Button
+        android:id="@+id/main_button2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/frame"
+        android:text="新浪微博"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_button1" />
+
+    <Button
+        android:id="@+id/main_button3"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/frame"
+        android:text="腾讯微博"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_button2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/MainSINA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/main_button2"
+        app:layout_constraintEnd_toEndOf="@+id/main_button2"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="@+id/main_button2"
+        app:layout_constraintTop_toTopOf="@+id/main_button2"
+        app:srcCompat="@drawable/account_sina" />
+
+    <ImageView
+        android:id="@+id/MainTENCENT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/main_button3"
+        app:layout_constraintEnd_toEndOf="@+id/main_button3"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="@+id/main_button3"
+        app:layout_constraintTop_toTopOf="@+id/main_button3"
+        app:srcCompat="@drawable/account_tencent" />
+
+    <ImageView
+        android:id="@+id/MainZH"
+        android:layout_width="171dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:srcCompat="@drawable/splash_logo" />
+
+    <ImageView
+        android:id="@+id/MainUSER"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/main_button1"
+        app:layout_constraintEnd_toEndOf="@+id/main_button1"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="@+id/main_button1"
+        app:layout_constraintTop_toTopOf="@+id/main_button1"
+        app:srcCompat="@drawable/ic_user" />
+
+    <ImageView
+        android:id="@+id/MainTop"
+        android:layout_width="410dp"
+        android:layout_height="73dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main_top" />
+
+    <ImageView
+        android:id="@+id/frame1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/main_button1"
+        app:layout_constraintEnd_toEndOf="@+id/main_button1"
+        app:layout_constraintStart_toStartOf="@+id/main_button1"
+        app:layout_constraintTop_toTopOf="@+id/main_button1"
+        app:srcCompat="@drawable/frame" />
+
+    <ImageView
+        android:id="@+id/frame2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/main_button2"
+        app:layout_constraintEnd_toEndOf="@+id/main_button2"
+        app:layout_constraintStart_toStartOf="@+id/main_button2"
+        app:layout_constraintTop_toTopOf="@+id/main_button2"
+        app:srcCompat="@drawable/frame" />
+
+    <ImageView
+        android:id="@+id/frame3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/main_button3"
+        app:layout_constraintEnd_toEndOf="@+id/main_button3"
+        app:layout_constraintStart_toStartOf="@+id/main_button3"
+        app:layout_constraintTop_toTopOf="@+id/main_button3"
+        app:srcCompat="@drawable/frame" />
+
+    <Button
+        android:id="@+id/main_button_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#00ff0000"
+        android:backgroundTint="#00FF0000"
+        android:text="注册"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_button3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="45dp"
+        android:paddingTop="35dp"
+        android:text="登录"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/MainTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/MainTop"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/Register_BG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/new_bg_register" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="85dp"
+        android:paddingTop="45dp"
+        android:text="注册"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/MainTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/MainTop"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button_back_R"
+        android:layout_width="28dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/ic_back_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/username_R"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="290dp"
+        android:ems="10"
+        android:hint="请输入用户名"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/password_R"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/Register_BG"
+        app:layout_constraintStart_toStartOf="@+id/Register_BG"
+        app:layout_constraintTop_toBottomOf="@+id/username_R" />
+
+    <EditText
+        android:id="@+id/password_RA"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="请确认密码"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_R" />
+
+    <ImageView
+        android:id="@+id/UserName"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="295dp"
+        app:layout_constraintEnd_toStartOf="@+id/username_R"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_user" />
+
+    <ImageView
+        android:id="@+id/newPassword"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="31dp"
+        app:layout_constraintEnd_toStartOf="@+id/password_R"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UserName"
+        app:srcCompat="@drawable/ic_lock" />
+
+    <ImageView
+        android:id="@+id/passwordAgain"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/password_RA"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newPassword"
+        app:srcCompat="@drawable/ic_lock" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_frame"
+        android:text="注册"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_RA" />
+
+    <ImageView
+        android:id="@+id/register_frame1"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toBottomOf="@+id/username_R"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/username_R"
+        app:srcCompat="@drawable/register_frame" />
+
+    <ImageView
+        android:id="@+id/register_frame2"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toBottomOf="@+id/password_R"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/password_R"
+        app:srcCompat="@drawable/register_frame" />
+
+    <ImageView
+        android:id="@+id/register_frame3"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toBottomOf="@+id/password_RA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/password_RA"
+        app:srcCompat="@drawable/register_frame" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
