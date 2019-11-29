@@ -19,36 +19,34 @@
 
 #### 主界面
 
-[image text]( https://github.com/Seven749/Aqueman_ohYeah/blob/master/Screen/Screenshot_20191129_223458_com.example.firstwork.jpg )
-
-![截图](/Screen/Screenshot_20191129_223618_com.example.firstwork.jpg)
+![截图](Screen/Screenshot_20191129_223618_com.example.firstwork.jpg)
 
 #### 注册界面
 
-[image text]( https://github.com/Seven749/Aqueman_ohYeah/blob/master/Screen/Screenshot_20191129_223627_com.example.firstwork.jpg )
+![截图](Screen/Screenshot_20191129_223627_com.example.firstwork.jpg)
 
-#### 成功注册
+#### 成功注册![sreenshot](Screen/Screenshot_20191129_223618_com.example.firstwork.jpg)
 
-[image text]( https://github.com/Seven749/Aqueman_ohYeah/blob/master/Screen/Screenshot_20191129_223618_com.example.firstwork.jpg )
 
-[image text]( https://github.com/Seven749/Aqueman_ohYeah/blob/master/Screen/Screenshot_20191129_223621_com.example.firstwork.jpg )
+
+![截图](Screen/Screenshot_20191129_223621_com.example.firstwork.jpg)
 
 #### 错误注册
 
-[image text]( https://github.com/Seven749/Aqueman_ohYeah/blob/master/Screen/Screenshot_20191129_223625_com.example.firstwork.jpg )
+![screenshot](Screen/Screenshot_20191129_223635_com.example.firstwork.jpg)
 
-[image text]( https://github.com/Seven749/Aqueman_ohYeah/blob/master/Screen/Screenshot_20191129_223647_com.example.firstwork.jpg )
+![screenshot](Screen/Screenshot_20191129_223647_com.example.firstwork.jpg)
 
 #### 登录界面
 
-[image text]( https://github.com/Seven749/Aqueman_ohYeah/blob/master/Screen/Screenshot_20191129_231011_com.example.firstwork.jpg )
+![screenshot](Screen/Screenshot_20191129_231011_com.example.firstwork.jpg )
 
 #### 登录成功
 
-[image text]( https://github.com/Seven749/Aqueman_ohYeah/blob/master/Screen/Screenshot_20191129_231031_com.example.firstwork.jpg )
+![screenshot](Screen/Screenshot_20191129_231031_com.example.firstwork.jpg )
 
-[image text]( https://github.com/Seven749/Aqueman_ohYeah/blob/master/Screen/Screenshot_20191129_223723_com.example.firstwork.jpg )
+![screenshot](Screen/Screenshot_20191129_223723_com.huawei.securitymgr)
 
 #### 登录失败
 
-[image text]( https://github.com/Seven749/Aqueman_ohYeah/blob/master/Screen/Screenshot_20191129_224100_com.example.firstwork.jpg )
+![screenshot](Screen/Screenshot_20191129_224100_com.example.firstwork.jpg )
