@@ -21,6 +21,8 @@
 
 [image text]( https://github.com/Seven749/Aqueman_ohYeah/blob/master/Screen/Screenshot_20191129_223458_com.example.firstwork.jpg )
 
+![截图](/Screen/Screenshot_20191129_223618_com.example.firstwork.jpg)
+
 #### 注册界面
 
 [image text]( https://github.com/Seven749/Aqueman_ohYeah/blob/master/Screen/Screenshot_20191129_223627_com.example.firstwork.jpg )
