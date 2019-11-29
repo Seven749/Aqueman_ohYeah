@@ -44,22 +44,30 @@ public class Register extends AppCompatActivity {
 //                    }
 //                }
 //                if (canRegister) {
+
                 if ((userName.getText().toString().length() > 0)
                         && (password.getText().toString().length() > 0)) {
-                    if (password.getText().toString().compareTo(passwordAgain.getText().toString())
-                            == 0) {
-                        MainInterface.size++;
-                        if (MainInterface.size == MainInterface.user.length / 2) {
-                            MainInterface.user = new Expand().Expand();
+                    if ((password.getText().toString().length() >= 8)
+                            && (password.getText().toString().length() <= 16)) {
+                        if (password.getText().toString().compareTo(passwordAgain.getText().toString())
+                                == 0) {
+                            MainInterface.size++;
+                            if (MainInterface.size == MainInterface.user.length / 2) {
+                                MainInterface.user = new Expand().Expand();
+                            }
+                            MainInterface.user[MainInterface.index][0] = userName.getText().toString();
+                            MainInterface.user[MainInterface.index][1] = password.getText().toString();
+                            Toast.makeText(Register.this, "注册成功！",
+                                    Toast.LENGTH_SHORT).show();
+                            MainInterface.index++;
+                            finish();
+                        } else {
+                            Toast.makeText(Register.this, "两次密码输入不一致!",
+                                    Toast.LENGTH_SHORT).show();
                         }
-                        MainInterface.user[MainInterface.index][0] = userName.getText().toString();
-                        MainInterface.user[MainInterface.index][1] = password.getText().toString();
-                        Toast.makeText(Register.this, "注册成功！",
-                                Toast.LENGTH_SHORT).show();
-                        MainInterface.index++;
-                        finish();
-                    } else {
-                        Toast.makeText(Register.this, "两次密码输入不一致!",
+                    }
+                    else {
+                        Toast.makeText(Register.this, "密码长度控制在8~16位",
                                 Toast.LENGTH_SHORT).show();
                     }
                 } else {
